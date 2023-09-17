@@ -15,7 +15,9 @@ The goal of this project is to develop a model to detect sleep onset and wake us
 
 
 ## 3. Data 
+
 The data for this project was provided by the [Healthy Brain Network](https://healthybrainnetwork.org/). The data consists of wrist-worn accelerometer data which includes the following features:
+
 - Data sources: https://healthybrainnetwork.org/, https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/data
 - Data size : 220 MB
 - Data shape: 13165560 rows, 6 cols
