@@ -20,6 +20,8 @@ The data for this project was provided by the [Healthy Brain Network] (https://h
 - Data size : 220 MB
 - Data shape: 13165560 rows, 6 cols
 - Each row is a continuous series recording of accelerometer data for a single subject spanning many days.
+
+  
 | Column Name | Data Type | Definition | Potential Values (for Categorical Variables, what are the categories?) |
 |-------------|-----------|------------|------------------------------------------------------------------------|
 | series_id   | string    | Unique identifier for each accelerometer series. | |
