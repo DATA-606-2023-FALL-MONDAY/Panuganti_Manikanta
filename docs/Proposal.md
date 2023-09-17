@@ -20,10 +20,14 @@ The data for this project was provided by the [Healthy Brain Network] (https://h
 - Data size : 220 MB
 - Data shape: 13165560 rows, 6 cols
 - Each row is a continuous series recording of accelerometer data for a single subject spanning many days.
-- Data dictionary
-  - Columns name
-  - Data type
-  - Defition
-  - Potential values (for categorical valuables, what are the categories?)
+| Column Name | Data Type | Definition | Potential Values |
+|-------------|-----------|------------|------------------------------------------------------------------------|
+| series_id   | string    | Unique identifier for each accelerometer series. | |
+| step        | integer   | An integer timestep for each observation within a series. | |
+| timestamp   | datetime  | A corresponding datetime with ISO 8601 format `%Y-%m-%dT%H:%M:%S%z`. | |
+| anglez      | float     | As calculated and described by the GGIR package, z-angle is a metric derived from individual accelerometer components that is commonly used in sleep detection and refers to the angle of the arm relative to the vertical axis of the body. | |
+| enmo        | float     | As calculated and described by the GGIR package, ENMO is the Euclidean Norm Minus One of all accelerometer signals, with negative values rounded to zero. While no standard measure of acceleration exists in this space, this is one of the several commonly computed features. | |
+| awake       | integer   | State of the sleep | 0 (awake) or 1 (asleep) |
+
 - Target Label: Awake
 - features/predictors: anglez, enmo
