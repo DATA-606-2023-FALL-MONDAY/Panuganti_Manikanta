@@ -4,8 +4,6 @@
 - Author Name : [Manikanta Panuganti]()
 - [Github](https://github.com/mani-kantap)
 - [Linkedin](https://www.linkedin.com/in/manikantap-dev/)
-- [Power Point]()
-- [Youtube Video]()
     
 ## Background
 
