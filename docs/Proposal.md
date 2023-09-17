@@ -1,4 +1,4 @@
- ## Sleep Detection using Wrist-Worn Accelerometer Data
+ # Sleep Detection using Wrist-Worn Accelerometer Data
 
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Author Name : [Manikanta Panuganti]()
