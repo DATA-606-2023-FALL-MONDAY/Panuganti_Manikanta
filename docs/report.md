@@ -125,10 +125,15 @@ To enhance user experience and provide transparency, the web app can include a f
 
 ## 7. Conclusion
 
-- Summarize your work and its potetial application
-- Point out the limitations of your work
-- Lessons learned 
-- Talk about future research direction
+This project serves as a foundation for advancing the application of machine learning in sleep tracking and opens doors for further research to address existing challenges and uncover new insights into sleep analytics. Model training showcased the effectiveness of machine learning algorithms, with XG Boost achieving the highest accuracy of 97%. The development of the Streamlit web app extends the practical utility of these models to end-users, allowing them to make predictions based on their input data in a user-friendly environment.
+
+The potential applications of this work are broad, ranging from personal sleep tracking applications to healthcare and wellness solutions. Individuals can benefit from personalized insights into their sleep patterns, while healthcare professionals may use the models for sleep disorder diagnostics and treatment planning.
+
+### Limitations of the Work
+Despite the promising results, there are certain limitations to this work. The accuracy achieved by the models may not generalize well to diverse datasets, and the performance may be sensitive to variations in data quality. Additionally, the models may not account for individual variations and complexities in sleep patterns, requiring further refinement for broader applicability.
+
+### Future Research Directions
+Future research can build upon this work by addressing its limitations and exploring additional avenues. Refinement of the models to handle diverse datasets and individual variations in sleep patterns is crucial. Integration of real-time data sources, such as wearable devices or continuous monitoring systems, can enhance the models' accuracy and applicability. Additionally, incorporating user feedback into the model training process can contribute to ongoing model improvement.
 
 ## 8. References 
 
