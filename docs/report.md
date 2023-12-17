@@ -43,8 +43,8 @@ The data for this project was provided by the [Healthy Brain Network](https://he
 
 The Exploratory Data Analysis is performed using Google Colab with a primary goal of understanding the data, summarizing key statistics, creating visualizations, identifying potential data cleansing requirements, and ensuring the resulting dataset is tidy.
 
-**- Summary Statistics**
-   
+**- Null Value Analysis**
+<img align="center" src="/images/null_values.png" alt="alt text" width="310" height="330">
 Summary statistics provide a snapshot of the central tendency, dispersion, and shape of the distribution of each variable. This information is crucial for understanding the range and characteristics of the data.
 
 ADD picture of summary statistics
