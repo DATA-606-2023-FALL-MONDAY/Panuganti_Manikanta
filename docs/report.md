@@ -43,13 +43,13 @@ The data for this project was provided by the [Healthy Brain Network](https://he
 
 The Exploratory Data Analysis is performed using Google Colab with a primary goal of understanding the data, summarizing key statistics, creating visualizations, identifying potential data cleansing requirements, and ensuring the resulting dataset is tidy.
 
-1. Summary Statistics
+**- Summary Statistics**
    
 Summary statistics provide a snapshot of the central tendency, dispersion, and shape of the distribution of each variable. This information is crucial for understanding the range and characteristics of the data.
 
 ADD picture of summary statistics
 
-2. Visualizations using Plotly Express
+**- Visualizations using Plotly Express**
    
 Visualizations are powerful tools for understanding the distribution and relationships within the data. Plotly Express is a Python library for creating interactive visualizations easily.
 
@@ -57,11 +57,11 @@ In this section, I have created histograms with box plots using Plotly Express. 
 
 ADD PLOTS and GRAPHS
 
-3. Missing Values and Duplicate Rows
+**- Missing Values and Duplicate Rows**
    
 Checking for missing values and duplicate rows is essential to ensure data quality and cleanliness.
 
-4. Data Transformation
+**- Data Transformation**
    
 Data transformation involves preparing the data for analysis, including tasks like splitting, merging, pivoting, or melting.
 
@@ -78,26 +78,50 @@ The following models have been chosen for predictive analytics:
 * XG Boost
 
 ### Training Methodology
-Train vs Test Split
+- Train vs Test Split
+
 The dataset will be split into training and testing sets to assess the model's performance on unseen data. I have used the common practice 80/20 split, where 80% of the data is used for training, and the remaining 20% is used for testing. Each selected model will be trained on the training dataset.
 
-Python Packages and Development Environment
+- Python Packages and Development Environment
+
 The model training will be implemented on Google Colab using popular Python packages, primarily scikit-learn for machine learning algorithms.
 
 ### Performance Evaluation
-Metrics
+- Metrics
+  
 To measure and compare the performance of the models, relevant metrics will be used. Common metrics for binary classification problems include accuracy, precision, recall, F1-score, and the area under the ROC curve (AUC-ROC).
 
-Model Comparison
+- Model Comparison
+  
 The models' performance will be compared based on the selected metrics. The model with the highest accuracy, precision, recall, or other relevant metric, depending on the business context, will be considered the most suitable for the task.
 
 ## 6. Application of the Trained Models
 
-Develop a web app for people to interact with your trained models. Potential tools for web app development:
+The web app is designed to allow users to interact with the trained models, providing a seamless and intuitive experience for making predictions based on input data.
 
-- **Streamlit** (recommended for its simplicity and ease to learn)
-- Dash
-- Flask
+**Technology Stack**
+
+The web application is built using Streamlit, a Python library that enables the creation of interactive web applications with minimal code. Streamlit is chosen for its simplicity and ease of integration with machine learning models.
+
+**User Interface Design**
+
+The user interface is designed to be user-friendly and intuitive. Users will be able to input relevant data through a simple form or interface, and the web app will provide predictions using the trained models. The design aims to make the application accessible to users with varying levels of technical expertise.
+
+**Integration with Trained Models**
+
+The trained predictive analytics models, including Logistic Regression, Gaussian Naive Bayes, Random Forest, and XG Boost, are seamlessly integrated into the web app. Streamlit provides a straightforward way to load the models and make predictions based on user inputs.
+
+**Deployment**
+
+The web app has been deployed on a platform using cloud services of AWS. The deployment process ensures that the application is accessible to users over the internet. The choice of deployment platform has made based on factors such as scalability, ease of use, and cost considerations.
+
+**User Interaction with Trained Models**
+- Input and Prediction
+  
+Users interact with the web app by providing input data through a user-friendly interface. The trained models process this input and generate predictions based on the underlying algorithms. The predicted outcomes are then presented to the user within the web app.
+- Feedback Mechanism
+  
+To enhance user experience and provide transparency, the web app can include a feedback mechanism. Users may have the option to provide feedback on the predictions, which can be valuable for model improvement and refinement.
 
 ## 7. Conclusion
 
