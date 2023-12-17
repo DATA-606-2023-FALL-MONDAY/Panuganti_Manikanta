@@ -137,4 +137,17 @@ Future research can build upon this work by addressing its limitations and explo
 
 ## 8. References 
 
-List articles, blogs, and websites that you have referenced or used in your project.
+[1] Fitness Trackers: How Actigraphy Detects Sleep-Wake Patterns. (n.d.). Verywell Health. https://www.verywellhealth.com/what-is-actigraphy-3015130
+
+‌
+[2] Lujan, M. R., Perez-Pozuelo, I., & Grandner, M. A. (2021). Past, Present, and Future of Multisensory Wearable Technology to Monitor Sleep and Circadian Rhythms. Frontiers in Digital Health, 3. https://doi.org/10.3389/fdgth.2021.721919
+‌
+
+[3] Chinoy, E. D., Cuellar, J. A., Huwa, K. E., Jameson, J. T., Watson, C. H., Bessman, S. C., Hirsch, D. A., Cooper, A. D., Drummond, S. P. A., & Markwald, R. R. (2020). Performance of seven consumer sleep-tracking devices compared with polysomnography. Sleep, 44(5). https://doi.org/10.1093/sleep/zsaa291
+‌
+
+[4] Delaney, L. J., Litton, E., Melehan, K. L., Huang, H.-C. . C., Lopez, V., & Van Haren, F. (2021). The feasibility and reliability of actigraphy to monitor sleep in intensive care patients: an observational study. Critical Care, 25(1). https://doi.org/10.1186/s13054-020-03447-8
+‌
+
+[5] Fekedulegn, D., Andrew, M. E., Shi, M., Violanti, J. M., Knox, S., & Innes, K. E. (2020). Actigraphy-Based Assessment of Sleep Parameters. Annals of Work Exposures and Health, 64(4), 350–367. https://doi.org/10.1093/annweh/wxaa007
+
