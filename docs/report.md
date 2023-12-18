@@ -39,7 +39,7 @@ The data for this project was provided by the [Healthy Brain Network](https://he
 - Target Label: Awake
 - features/predictors: anglez, enmo
 
-  ## 4. Exploratory Data Analysis (EDA)
+## 4. Exploratory Data Analysis (EDA)
 
 The Exploratory Data Analysis is performed using Google Colab with a primary goal of understanding the data, summarizing key statistics, creating visualizations, identifying potential data cleansing requirements, and ensuring the resulting dataset is tidy.
 
