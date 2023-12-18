@@ -6,7 +6,7 @@
 - Author Name : [Manikanta Panuganti]()
 - [Github](https://github.com/mani-kantap)
 - [Linkedin](https://www.linkedin.com/in/manikantap-dev/)
-- Link to your PowerPoint presentation file
+- [Presentation](https://github.com/DATA-606-2023-FALL-MONDAY/Panuganti_Manikanta/blob/main/data/Presentation.pdf)
 - Link to your YouTube video 
     
 ## 2. Background
