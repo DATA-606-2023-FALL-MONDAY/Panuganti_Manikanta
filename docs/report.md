@@ -53,6 +53,7 @@ As we can see in the image there are no null values for all the features, the da
 Visualizations are powerful tools for understanding the distribution and relationships within the data. Plotly Express is a Python library for creating interactive visualizations easily.
 
 In this section, I have created histograms with box plots using Plotly Express. These visualizations help us understand the distribution of 'anglez' and 'enmo' for different sleep states.
+
 **- Sleeping states anglez data**
 This analyis is for sleeping states anglez value which is a feature coming from accelerometer.
 ![plot_sleepingstate](./images/singleDay.jpg)
@@ -67,7 +68,72 @@ Similar to anglez the values of enmo varies different based on the sleeping stat
 ![plot_sleepingstate](./images/enmo.jpg)
 
 **- Featuere Engineering**
-   
+## 1. Hour
+- **Description**: Represents the hour of the day during which the accelerometer data was recorded.
+- **Type**: Numeric
+- **Range**: 0 to 23 (24-hour format)
+
+## 2. Anglez Rolling Mean
+- **Description**: Rolling mean of the anglez feature over a specified window.
+- **Type**: Numeric
+- **Calculation**: Mean of the anglez values within a rolling window.
+
+## 3. Anglez Rolling Max
+- **Description**: Rolling maximum of the anglez feature over a specified window.
+- **Type**: Numeric
+- **Calculation**: Maximum value of the anglez within a rolling window.
+
+## 4. Anglez Rolling Std
+- **Description**: Rolling standard deviation of the anglez feature over a specified window.
+- **Type**: Numeric
+- **Calculation**: Standard deviation of the anglez values within a rolling window.
+
+## 5. Anglez Diff
+- **Description**: Represents the difference between consecutive anglez values.
+- **Type**: Numeric
+- **Calculation**: Difference between the current and previous anglez values.
+
+## 6. Anglez Diff Rolling Mean
+- **Description**: Rolling mean of the anglez difference over a specified window.
+- **Type**: Numeric
+- **Calculation**: Mean of the anglez differences within a rolling window.
+
+## 7. Anglez Diff Rolling Max
+- **Description**: Rolling maximum of the anglez difference over a specified window.
+- **Type**: Numeric
+- **Calculation**: Maximum value of the anglez differences within a rolling window.
+
+
+## 9. Enmo Rolling Mean
+- **Description**: Rolling mean of the Enmo feature over a specified window.
+- **Type**: Numeric
+- **Calculation**: Mean of the Enmo values within a rolling window.
+
+## 10. Enmo Rolling Max
+- **Description**: Rolling maximum of the Enmo feature over a specified window.
+- **Type**: Numeric
+- **Calculation**: Maximum value of the Enmo within a rolling window.
+
+## 11. Enmo Rolling Std
+- **Description**: Rolling standard deviation of the Enmo feature over a specified window.
+- **Type**: Numeric
+- **Calculation**: Standard deviation of the Enmo values within a rolling window.
+
+## 12. Enmo Diff
+- **Description**: Represents the difference between consecutive Enmo values.
+- **Type**: Numeric
+- **Calculation**: Difference between the current and previous Enmo values.
+
+## 13. Enmo Diff Rolling Mean
+- **Description**: Rolling mean of the Enmo difference over a specified window.
+- **Type**: Numeric
+- **Calculation**: Mean of the Enmo differences within a rolling window.
+
+## 14. Enmo Diff Rolling Max
+- **Description**: Rolling maximum of the Enmo difference over a specified window.
+- **Type**: Numeric
+- **Calculation**: Maximum value of the Enmo differences within a rolling window.
+
 
 ## 5. Model Training 
 
