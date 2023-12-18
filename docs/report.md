@@ -43,30 +43,31 @@ The data for this project was provided by the [Healthy Brain Network](https://he
 
 The Exploratory Data Analysis is performed using Google Colab with a primary goal of understanding the data, summarizing key statistics, creating visualizations, identifying potential data cleansing requirements, and ensuring the resulting dataset is tidy.
 
-**- Null Value Analysis**
+**- Missing Value Analysis**
+Checking for missing values is essential to ensure data quality and cleanliness.
 ![plot](./images/null_values.jpg)
-Summary statistics provide a snapshot of the central tendency, dispersion, and shape of the distribution of each variable. This information is crucial for understanding the range and characteristics of the data.
+As we can see in the image there are no null values for all the features, the data is good for analysis.
 
-ADD picture of summary statistics
-s
 **- Visualizations using Plotly Express**
    
 Visualizations are powerful tools for understanding the distribution and relationships within the data. Plotly Express is a Python library for creating interactive visualizations easily.
 
 In this section, I have created histograms with box plots using Plotly Express. These visualizations help us understand the distribution of 'anglez' and 'enmo' for different sleep states.
+**- Sleeping states anglez data**
+This analyis is for sleeping states anglez value which is a feature coming from accelerometer.
+![plot_sleepingstate](./images/singleDay.jpg)
+over many days the data is distributed and anglez values is distributed between -80 to 80 value.
 
-ADD PLOTS and GRAPHS
+Below plot is of anglez for a single day.
+![plot_sleepingstate](./images/singleDays.jpg)
+as you can see when the person is sleeping the data variation is very low but when the person is sleeping there is too much variation in the anglez value.
 
-**- Missing Values and Duplicate Rows**
+**- Sleeping states enmo data**
+Similar to anglez the values of enmo varies different based on the sleeping state
+![plot_sleepingstate](./images/enmo.jpg)
+
+**- Featuere Engineering**
    
-Checking for missing values and duplicate rows is essential to ensure data quality and cleanliness.
-
-**- Data Transformation**
-   
-Data transformation involves preparing the data for analysis, including tasks like splitting, merging, pivoting, or melting.
-
-
-The EDA emphasizes the readiness of the dataset for machine learning modeling and the dataset is tidy and ready to apply various models now.
 
 ## 5. Model Training 
 
