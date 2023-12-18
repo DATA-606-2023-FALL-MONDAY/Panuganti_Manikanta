@@ -61,7 +61,8 @@ over many days the data is distributed and anglez values is distributed between 
 
 Below plot is of anglez for a single day.
 ![plot_sleepingstate](./images/singleDays.jpg)
-as you can see when the person is sleeping the data variation is very low but when the person is sleeping there is too much variation in the anglez value.
+
+As you can see when the person is sleeping the data variation is very low but when the person is sleeping there is too much variation in the anglez value.
 
 **- Sleeping states enmo data**
 Similar to anglez the values of enmo varies different based on the sleeping state
