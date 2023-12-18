@@ -7,4 +7,5 @@
 - <div align="center">
   <a href="https://www.youtube.com/watch?v=JDql6FJbTrg"><img src="https://img.youtube.com/vi/JDql6FJbTrg/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
-- Presentation deck : https://github.com/DATA-606-2023-FALL-MONDAY/Panuganti_Manikanta/blob/main/data/Presentation.pdf
+
+- Presentation deck : [Deck Link](https://github.com/DATA-606-2023-FALL-MONDAY/Panuganti_Manikanta/blob/main/data/Presentation.pdf)
