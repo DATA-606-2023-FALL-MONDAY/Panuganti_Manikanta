@@ -7,7 +7,7 @@
 - [Github](https://github.com/mani-kantap)
 - [Linkedin](https://www.linkedin.com/in/manikantap-dev/)
 - [Presentation](https://github.com/DATA-606-2023-FALL-MONDAY/Panuganti_Manikanta/blob/main/data/Presentation.pdf)
-- Link to your YouTube video 
+- [Presentation Video Link](https://youtu.be/JDql6FJbTrg)
     
 ## 2. Background
 
