@@ -70,70 +70,21 @@ Similar to anglez the values of enmo varies different based on the sleeping stat
 **- Featuere Engineering**
 # Sleeping State Detection Features Documentation
 
-- **Hour**
-  - *Description*: Represents the hour of the day during which the accelerometer data was recorded.
-  - *Type*: Numeric
-  - *Range*: 0 to 23 (24-hour format)
-
-- **Anglez Rolling Mean**
-  - *Description*: Rolling mean of the anglez feature over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Mean of the anglez values within a rolling window.
-
-- **Anglez Rolling Max**
-  - *Description*: Rolling maximum of the anglez feature over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Maximum value of the anglez within a rolling window.
-
-- **Anglez Rolling Std**
-  - *Description*: Rolling standard deviation of the anglez feature over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Standard deviation of the anglez values within a rolling window.
-
-- **Anglez Diff**
-  - *Description*: Represents the difference between consecutive anglez values.
-  - *Type*: Numeric
-  - *Calculation*: Difference between the current and previous anglez values.
-
-- **Anglez Diff Rolling Mean**
-  - *Description*: Rolling mean of the anglez difference over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Mean of the anglez differences within a rolling window.
-
-- **Anglez Diff Rolling Max**
-  - *Description*: Rolling maximum of the anglez difference over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Maximum value of the anglez differences within a rolling window.
-
-- **Enmo Rolling Mean**
-  - *Description*: Rolling mean of the Enmo feature over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Mean of the Enmo values within a rolling window.
-
-- **Enmo Rolling Max**
-  - *Description*: Rolling maximum of the Enmo feature over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Maximum value of the Enmo within a rolling window.
-
-- **Enmo Rolling Std**
-  - *Description*: Rolling standard deviation of the Enmo feature over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Standard deviation of the Enmo values within a rolling window.
-
-- **Enmo Diff**
-  - *Description*: Represents the difference between consecutive Enmo values.
-  - *Type*: Numeric
-  - *Calculation*: Difference between the current and previous Enmo values.
-
-- **Enmo Diff Rolling Mean**
-  - *Description*: Rolling mean of the Enmo difference over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Mean of the Enmo differences within a rolling window.
-
-- **Enmo Diff Rolling Max**
-  - *Description*: Rolling maximum of the Enmo difference over a specified window.
-  - *Type*: Numeric
-  - *Calculation*: Maximum value of the Enmo differences within a rolling window.
+| Feature                  | Description                                                  | Type   | Calculation                                          |
+|--------------------------|--------------------------------------------------------------|--------|------------------------------------------------------|
+| Hour                     | Represents the hour of the day during data recording.        | Numeric| 0 to 23 (24-hour format)                              |
+| Anglez Rolling Mean      | Rolling mean of anglez over a specified window.               | Numeric| Mean of anglez values within a rolling window         |
+| Anglez Rolling Max       | Rolling maximum of anglez over a specified window.            | Numeric| Maximum value of anglez within a rolling window       |
+| Anglez Rolling Std       | Rolling standard deviation of anglez over a specified window.| Numeric| Standard deviation of anglez values within a window  |
+| Anglez Diff              | Difference between consecutive anglez values.                | Numeric| Difference between current and previous anglez values|
+| Anglez Diff Rolling Mean | Rolling mean of anglez difference over a specified window.    | Numeric| Mean of anglez differences within a rolling window    |
+| Anglez Diff Rolling Max  | Rolling maximum of anglez difference over a specified window.| Numeric| Maximum value of anglez differences within a window  |
+| Enmo Rolling Mean        | Rolling mean of Enmo over a specified window.                | Numeric| Mean of Enmo values within a rolling window           |
+| Enmo Rolling Max         | Rolling maximum of Enmo over a specified window.             | Numeric| Maximum value of Enmo within a rolling window         |
+| Enmo Rolling Std         | Rolling standard deviation of Enmo over a specified window.  | Numeric| Standard deviation of Enmo values within a window    |
+| Enmo Diff                | Difference between consecutive Enmo values.                 | Numeric| Difference between current and previous Enmo values   |
+| Enmo Diff Rolling Mean   | Rolling mean of Enmo difference over a specified window.     | Numeric| Mean of Enmo differences within a rolling window     |
+| Enmo Diff Rolling Max    | Rolling maximum of Enmo difference over a specified window.  | Numeric| Maximum value of Enmo differences within a window    |
 
 
 ## 5. Model Training 
