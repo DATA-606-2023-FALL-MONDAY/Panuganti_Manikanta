@@ -68,7 +68,7 @@ Similar to anglez the values of enmo varies different based on the sleeping stat
 ![plot_sleepingstate](./images/enmo.jpg)
 
 **- Featuere Engineering**
-# Sleeping State Detection Features Documentation
+Based on the analysis for the sequence data, these are all the features have been added.
 
 | Feature                  | Description                                                  | Type   | Calculation                                          |
 |--------------------------|--------------------------------------------------------------|--------|------------------------------------------------------|
@@ -96,27 +96,30 @@ The following models have been chosen for predictive analytics:
 * Random Forest
 * XG Boost
 
-### Training Methodology
+### Training 
 - Train vs Test Split
 
-The dataset will be split into training and testing sets to assess the model's performance on unseen data. I have used the common practice 80/20 split, where 80% of the data is used for training, and the remaining 20% is used for testing. Each selected model will be trained on the training dataset.
+The dataset has been split into training and testing sets to assess the model's performance on unseen data. I have used the common practice 80/20 split, where 80% of the data is used for training, and the remaining 20% is used for testing. Each selected model has been trained on the training dataset.
 
 - Python Packages and Development Environment
 
-The model training will be implemented on Google Colab using popular Python packages, primarily scikit-learn for machine learning algorithms.
+The model training has been implemented on Google Colab and kaggle using Python packages, primarily scikit-learn for machine learning algorithms, numpy, pandas and pickle for saving and reloading the model.
 
-### Performance Evaluation
-- Metrics
-  
-To measure and compare the performance of the models, relevant metrics will be used. Common metrics for binary classification problems include accuracy, precision, recall, F1-score, and the area under the ROC curve (AUC-ROC).
+All the models have performed well. Out of all the models XGBoost performed very well with high accuracy and ROC score so that model has been used for inference.
 
-- Model Comparison
-  
-The models' performance will be compared based on the selected metrics. The model with the highest accuracy, precision, recall, or other relevant metric, depending on the business context, will be considered the most suitable for the task.
+### Model Performance Comparison
 
-## 6. Application of the Trained Models
+| Model                 | Accuracy | ROC   |
+|-----------------------|----------|-------|
+| Logistic Regression   | 91       | 88    |
+| Gaussian Naive Bayes  | 82       | 80    |
+| Random Forest         | 96       | 96    |
+| XG Boost              | 97       | 96    |
 
-The web app is designed to allow users to interact with the trained models, providing a seamless and intuitive experience for making predictions based on input data.
+
+## 6. Application of the Trained Model
+
+A Streamlit web app has been developed for the users to interact with which is deployed [here](https://sleepai.streamlit.app/) which is providing a seamless and intuitive experience for making predictions based on input data.
 
 **Technology Stack**
 
@@ -124,27 +127,16 @@ The web application is built using Streamlit, a Python library that enables the 
 
 **User Interface Design**
 
-The user interface is designed to be user-friendly and intuitive. Users will be able to input relevant data through a simple form or interface, and the web app will provide predictions using the trained models. The design aims to make the application accessible to users with varying levels of technical expertise.
+The user interface is designed to be user-friendly and intuitive. Users will be able to input relevant data through a simple form or interface, and the web app will provide predictions using the trained model. The design aims to make the application accessible to users with varying levels of technical expertise.
 
 **Integration with Trained Models**
 
-The trained predictive analytics models, including Logistic Regression, Gaussian Naive Bayes, Random Forest, and XG Boost, are seamlessly integrated into the web app. Streamlit provides a straightforward way to load the models and make predictions based on user inputs.
-
-**Deployment**
-
-The web app has been deployed on a platform using cloud services of AWS. The deployment process ensures that the application is accessible to users over the internet. The choice of deployment platform has made based on factors such as scalability, ease of use, and cost considerations.
-
-**User Interaction with Trained Models**
-- Input and Prediction
-  
-Users interact with the web app by providing input data through a user-friendly interface. The trained models process this input and generate predictions based on the underlying algorithms. The predicted outcomes are then presented to the user within the web app.
-- Feedback Mechanism
-  
-To enhance user experience and provide transparency, the web app can include a feedback mechanism. Users may have the option to provide feedback on the predictions, which can be valuable for model improvement and refinement.
+XGBoost and RandomForest models have been used in the final app. The model has been saved with Pickle format and the same format has been used to load and serve to the users.
+![plot_sleepingstate](./images/demo.jpg)
 
 ## 7. Conclusion
 
-This project serves as a foundation for advancing the application of machine learning in sleep tracking and opens doors for further research to address existing challenges and uncover new insights into sleep analytics. Model training showcased the effectiveness of machine learning algorithms, with XG Boost achieving the highest accuracy of 97%. The development of the Streamlit web app extends the practical utility of these models to end-users, allowing them to make predictions based on their input data in a user-friendly environment.
+This project serves as a basis for advancing the application of machine learning in sleep tracking and opens doors for further research to address existing challenges and uncover new insights into sleep analytics. Model training showcased the effectiveness of machine learning algorithms, with XG Boost achieving the highest accuracy of 97%. The development of the Streamlit web app extends the practical utility of these models to end-users, allowing them to make predictions based on their input data in a user-friendly environment.
 
 The potential applications of this work are broad, ranging from personal sleep tracking applications to healthcare and wellness solutions. Individuals can benefit from personalized insights into their sleep patterns, while healthcare professionals may use the models for sleep disorder diagnostics and treatment planning.
 
